@@ -3,7 +3,6 @@ extends layout
 //- this logic should be moved to a view at some point
 
 block content
-	- console.log(config)
 	- var lineHeight = 2.2;
 	- var archives = _.chain(env.helpers.getArticles(contents)).groupBy(function(item) {
 	-	 return item.date.getFullYear()
@@ -11,10 +10,9 @@ block content
 	- for (var archive in archives) {
 	-	archives[archive] = _.groupBy(archives[archive], function(item){return item.date.getMonth();})
 	- }
-	- var month_names = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December']
+	- var month_names = ['Январь', 'Февраль', 'Март', 'Апрель', 'Май', 'Июнь', 'Июль', 'Август', 'Сентябрь', 'Октябрь', 'Ноябрь', 'Декабрь']
 	section.archive
-		- var a = 'Andrew';
-		h2 Archive
+		h2 Архив
 
 		p #{JSON.stringify(archives[0])}
 		ul

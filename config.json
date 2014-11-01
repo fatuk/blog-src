@@ -1,15 +1,16 @@
 {
 	"locals": {
 		"url": "http://localhost:8080",
-		"name": "The Wintersmith's blog",
-		"owner": "Someone",
-		"description": "Ramblings of an immor(t)al demigod",
+		"name": "Блог",
+		"owner": "Андрей Фатюк",
+		"description": "Обзоры плагинов, рецепты, база знаний",
 		"livereload": true
 	},
 	"plugins": [
 		"./plugins/paginator.coffee",
 		"./node_modules/wintersmith-less/plugin.coffee",
-		"./node_modules/wintersmith-livereload/src/index.coffee"
+		"./node_modules/wintersmith-livereload/src/index.coffee",
+		"./node_modules/wintersmith-tag/src/index.coffee"
 	],
 	"require": {
 		"moment": "moment",
@@ -24,6 +25,6 @@
 		"smartypants": true
 	},
 	"paginator": {
-		"perPage": 3
+		"perPage": 2
 	}
 }

@@ -1,0 +1,7 @@
+{
+	"template": "tags.jade",
+	"perPage": 3,
+	"paginatorDefaults": {
+		"template": "tag.jade"
+	}
+}

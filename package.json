@@ -5,7 +5,8 @@
     "underscore": "1.4.x",
     "wintersmith": "^2.1.0",
     "wintersmith-less": "^0.2.3",
-    "wintersmith-livereload": "^0.1.1"
+    "wintersmith-livereload": "^0.1.1",
+    "wintersmith-tag": "^1.0.2"
   },
   "repository": "none"
 }

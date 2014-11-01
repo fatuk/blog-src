@@ -3,7 +3,7 @@ title: A red herring Привет
 author: baker
 date: 2013-04-01
 template: article.jade
-category: red
+tags: red, herring
 ---
 
 A long time ago, when the world was young -- someone put some food on their tongue.

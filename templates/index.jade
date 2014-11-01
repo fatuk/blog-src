@@ -6,7 +6,8 @@ block content
     article.article.intro
       header
         p.date
-          span= moment.utc(article.date).format('DD. MMMM YYYY')
+          - moment.lang('ru')
+          span= moment.utc(article.date).format('DD MMM YYYY')
         h2
           a(href=article.url)= article.title
       section.content
@@ -19,11 +20,8 @@ block content
 block prepend footer
   div.nav
     if prevPage
-      a(href=prevPage.url) « Newer
-    else
-      a(href='/archive.html') « Archives
+      a(href=prevPage.url) « Новое
+    a(href='/archive.html') Архив
+    a(href='/tags.html') Теги
     if nextPage
-      a(href=nextPage.url) Next page »
-
-
-
+      a(href=nextPage.url) Старое »
