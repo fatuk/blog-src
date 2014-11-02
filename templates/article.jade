@@ -10,6 +10,7 @@ block prepend title
 block header
   include author
   h1= page.title
+  p.article-date= moment.utc(page.date).format('DD MMM YYYY')
   p.author
     | #{ "Написал " }
     mixin author(page.metadata.author)

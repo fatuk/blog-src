@@ -1,7 +1,7 @@
 ---
 title: Пакеты для Sublime Text 2
 author: fatuk
-date: 2014-11-02
+date: 2014-11-03
 template: article.jade
 tags: sublime text, packages, пакеты, package control
 ---
@@ -10,24 +10,18 @@ tags: sublime text, packages, пакеты, package control
 
 <span class="more"></span>
 
-They held a meeting at quarter past eight.
-Whilst the human's were getting home late.
-They decided they didn't want to be eaten they said:
-"No way, we're not going to be beaten".
+![sublime text](sublime.svg)
 
-So time went by, and human's got old.
-Banana's got ready, for their prophets had told.
-That soon shall come the dawn of war.
-Where humans will rule the earth no more.
-
-The humans knew not of the evil banana's plans.
-They made their cars, guitars and aluminum cans.
-And the banana's began to take over the east.
-While humans knew not, and kept having their feast.
-
-But time has run out, no more hiding there can be.
-Or else the banana's will kill you and me.
-We must take up arms, and fight to the end.
-Because, believe it or not, a banana is not a friend.
-
-![a banana](banana.png)
+* [AutoFileName](https://sublime.wbond.net/packages/AutoFileName) -- автодополнение путей к файлам.
+* [Backbone.js](https://sublime.wbond.net/packages/Backbone.js) -- добавляет набор сниппетов для стандартных структур Backbone -- *view*, *collection*, *route*, *model*, etc. Лично мне сильно экономит время.
+* [CSS Format](https://sublime.wbond.net/packages/CSS%20Format) -- форматирует стили CSS/SASS/SCSS/LESS.
+* [Emmet](https://sublime.wbond.net/packages/Emmet) -- как по мне, один из основных плагинов для верстки.
+* [FileDiffs](https://sublime.wbond.net/packages/FileDiffs) -- создает diff между двумя файлами, может сравнивать файл с буфером обмена.
+* [GitGutter](https://sublime.wbond.net/packages/GitGutter) -- помечает новые, изменившиеся или удаленные строки в файле.
+* [JavaScript Snippets](https://sublime.wbond.net/packages/JavaScript%20Snippets) -- оптимальный набор сниппетов для JS.
+* [JavaScript Beautify](https://sublime.wbond.net/packages/Javascript%20Beautify) -- форматирование JS.
+* [LESS](https://sublime.wbond.net/packages/LESS) -- подсветка синтаксиса *less*.
+* [Markdown Extended](https://sublime.wbond.net/packages/Markdown%20Extended)
+* [SublimeLinter](https://sublime.wbond.net/packages/SublimeLinter) -- проверка синтаксиса.
+* [WebFont](https://sublime.wbond.net/packages/WebFont) -- быстрое подключение шрифтов, можно скачать.
+* [cdnjs](https://sublime.wbond.net/packages/cdnjs) -- подключение библиотек из *cdn* облака [cdnjs.com](http://cdnjs.com)
