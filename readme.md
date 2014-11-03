@@ -1,4 +1,4 @@
 
 # Blog
 
-The default [wintersmith](https://github.com/jnordberg/wintersmith) template
+Исходники блога на [wintersmith](https://github.com/jnordberg/wintersmith).
