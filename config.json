@@ -1,4 +1,5 @@
 {
+	"baseUrl": "/blog/",
 	"locals": {
 		"url": "http://localhost:8080",
 		"name": "Блог",
