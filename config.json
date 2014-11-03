@@ -1,7 +1,7 @@
 {
 	"baseUrl": "/blog/",
 	"locals": {
-		"url": "http://localhost:8080",
+		"url": "http://fatuk.github.io/blog",
 		"name": "Блог",
 		"owner": "Андрей Фатюк",
 		"description": "Обзоры плагинов, рецепты, база знаний",

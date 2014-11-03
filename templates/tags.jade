@@ -9,12 +9,12 @@ block content
 			- for(var tag in tagsSorted)
 				- var total = env.helpers.getArticlesByTag(contents, tagsSorted[tag]).length
 				li
-					a(href='tag/' + tagsSorted[tag] + '/1')= tagsSorted[tag] + ' (' + total + ')'
+					a(href='/blog/tag/' + tagsSorted[tag] + '/1')= tagsSorted[tag] + ' (' + total + ')'
 block prepend footer
 	div.nav
 		if prevPage
 			a(href=prevPage.url) « Новое
-		a(href='/archive.html') Архив
-		a(href='/tags.html') Теги
+		a(href='/blog/archive.html') Архив
+		a(href='/blog/tags.html') Теги
 		if nextPage
 			a(href=nextPage.url) Старое »
