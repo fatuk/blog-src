@@ -4,7 +4,6 @@ author: fatuk
 date: 2014-11-03
 template: article.jade
 tags: sublime text, packages, пакеты, package control
-publish: false
 ---
 
 Список пакетов, которыми я пользуюсь. Буду его периодически обновлять и ставить дату обновления.
