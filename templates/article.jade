@@ -21,6 +21,7 @@ block content
 		- var tags = env.helpers.getTagsFromArticle(page);
 				each tag in tags
 					a.big-tag(href=env.helpers.getTagHome(tag).url)= tag
+						i.fa.fa-tag
 		section.content!= typogr(page.html).typogrify()
 		<script type="text/javascript">document.write(VK.Share.button(false,{type: "button", text: "Перепостить на стену"}));</script>
 
