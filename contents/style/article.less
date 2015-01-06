@@ -24,12 +24,41 @@
 	}
 	.content {
 		img {
-			display: block;
-			width: 100%;
-
 			width: 20%;
 			display: block;
 			margin: 0 auto;
+		}
+		img[alt="Ubuntu logo"] {
+			margin-bottom: 1em;
+		}
+		.article-pic {
+			width: 100%;
+		}
+		table {
+			width: 100%;
+			font-size: 70%;
+			margin-bottom: 1em;
+		}
+		thead {
+			text-align: left;
+			background: #eee;
+			border: solid 1px #ddd;
+			th {
+				padding: .5em;
+				border: 1px solid #DDD;
+			}
+		}
+		tbody {
+			tr:nth-child(odd) {
+				background: lighten(#eee, 20%);
+			}
+			tr:nth-child(even) {
+				background: lighten(#eee, 5%);
+			}
+			td {
+				padding: .5em;
+				border: 1px solid #DDD;
+			}
 		}
 	}
 }
