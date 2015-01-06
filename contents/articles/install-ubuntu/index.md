@@ -28,3 +28,7 @@ tags: ubuntu, howto
 | home  | ext4       | 30 GB  | все остальное не менее 30 GB                     |
 
 Для разметки можно воспользоваться программой [GParted](https://ru.wikipedia.org/wiki/GParted), которая доступна при загрузке с Ubuntu LiveCD.
+
+## Установка
+
+Загружаемся с LiveCD, устанавливаем.
