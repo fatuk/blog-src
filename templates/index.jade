@@ -21,7 +21,9 @@ block content
 block prepend footer
 	div.nav
 		if prevPage
-			a(href=prevPage.url) « Новое
+			a(href=prevPage.url)
+				i.fa.fa-hand-o-left
+				span новое
 		a(href='/blog/archive.html')
 			i.fa.fa-archive
 			span Архив
@@ -29,4 +31,6 @@ block prepend footer
 			i.fa.fa-tags
 			span Теги
 		if nextPage
-			a(href=nextPage.url) Старое »
+			a(href=nextPage.url)
+				span старое
+				i.fa.fa-hand-o-right

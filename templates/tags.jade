@@ -12,10 +12,9 @@ block content
 					a(href='/blog/tag/' + tagsSorted[tag] + '/1')= tagsSorted[tag] + ' (' + total + ')'
 block prepend footer
 	div.nav
-		if prevPage
-			a(href=prevPage.url) « Новое
+		a(href=contents.index.url)
+			i.fa.fa-hand-o-left
+			span все записи
 		a(href='/blog/archive.html')
 			i.fa.fa-archive
 			span Архив
-		if nextPage
-			a(href=nextPage.url) Старое »
