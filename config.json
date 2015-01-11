@@ -2,9 +2,9 @@
 	"baseUrl": "/blog/",
 	"locals": {
 		"url": "http://fatuk.github.io/blog",
-		"name": "Блог",
+		"name": "Блог о фронтенде",
 		"owner": "Андрей Фатюк",
-		"description": "Обзоры плагинов, рецепты, база знаний",
+		"description": "Заметки на полях",
 		"livereload": true
 	},
 	"plugins": [
