@@ -10,7 +10,9 @@ tags: byzanz, запись экрана, screencast, gif, кускус
 
 <span class="more"></span>
 
-<img class="article-pic" src="demo.gif" alt="кускус">
+<div class="shadow-18">
+	<img class="article-pic" src="demo.gif" alt="кускус">
+</div>
 
 ## Предисловие
 Как-то понадобилось записать мои действия в консоли.
